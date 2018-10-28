@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+h1{
+    margin-top: 0px;
+    position: relative;
+    bottom: 1px;
+    color:white;
+    font-family: 'Dimitri';
+}
+img{
+    width: 65px;
+    height: 65px;
+}
+
+.outer{
+    background-color: #6441a5;
+    text-align: center;
+    width: 27vw;
+    border-radius: 23px;
+    box-shadow: -2px 5px black;
+    height: 10.3vh;
+}
+
+@font-face {
+    font-family: 'Dimitri';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dimitri'), url('DIMITRI_.woff') format('woff');
+    }
